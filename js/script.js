@@ -26,7 +26,6 @@ getApi(){
 axios.get(this.apiMail).then(result => {
   this.list.push(result.data.response)
 
-//  this.isReady = true  - senza il bottone
 
 })
 }

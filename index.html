@@ -22,9 +22,7 @@
 
   <h1>Lista Mail </h1>
 
-<button id="bottone" @click="isReady = !isReady" >CLICCAMI</button>
-
-<ul v-if="isReady">
+<ul v-if="list.length === 10">
   <li v-for="item in list">{{item}}</li>
 </ul>
 <div v-else class="load">
